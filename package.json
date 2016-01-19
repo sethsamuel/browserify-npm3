@@ -1,0 +1,19 @@
+{
+  "name": "browserify-npm3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mkdir -p dist; browserify -t ejsify index.js > dist/index.js",
+    "broken": "mkdir -p dist; browserify -t ejsify broken.js > dist/index.js"
+  },
+  "engine": "node >= 5",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "13.0.0",
+    "ejsify": "1.0.0",
+    "test-module": "file:test-module"
+  }
+}

@@ -1,0 +1,1 @@
+testModule = require('test-module')

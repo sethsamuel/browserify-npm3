@@ -1,0 +1,1 @@
+template = require('./lib/html/template.ejs')
