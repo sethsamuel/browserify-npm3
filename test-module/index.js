@@ -1,1 +1,1 @@
-var template = require('./lib/html/template.ejs')
+template = require('./lib/html/template.ejs')
